@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Inter:wght@200&display=swap");
+* {
+  font-family: "inter";
+  font-weight: 600;
+}
+.site {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+/*-------INPUTS-------*/
+.container {
+  display: flex;
+  background-color: #1f2937;
+  color: aliceblue;
+  padding: 5em;
+  border: solid 1px #374151;
+  border-radius: 15px;
+}
+.container div span input {
+  background-color: #111827;
+  border: solid 1px #374151;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+}
+.cadastro {
+  width: 300px;
+}
+.cvv {
+  margin-left: 80px;
+}
+.cvv-input {
+  width: 70px;
+}
+.container div span p {
+  margin-bottom: 5px;
+}
+.container div div {
+  display: flex;
+  justify-content: space-around;
+}
+/*-------CARTAO------*/
+.cont-cartao {
+  flex-direction: column;
+  margin-left: 2em;
+}
+.cartao {
+  background: url(../img/fundoCartao.png);
+  display: flex;
+  width: 37vh;
+  height: 13em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cartao div {
+  justify-content: space-between;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.bandeira {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.cartao div h1 {
+  margin-right: 1.5em;
+}
+
+.verify {
+  display: flex;
+  justify-content: center;
+}
+.verify img {
+  margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column !important;
+  }
+}
